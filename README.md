@@ -4,7 +4,7 @@ Projectile Motion
 
 Angle
 
-Initial Speed
+Initial Velocity
 
 Sample Learning Goals
 Predict how varying initial conditions affect a projectile path(various objects, angles, initial speed, mass, diameter, initial height, with and without air resistance).
