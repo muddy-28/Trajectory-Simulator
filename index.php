@@ -1,28 +1,18 @@
-
 <html> 
 	<head> 
-		<title>Tajectory Path</title> 
-		
+		<title>Tajectory Simulator by Seadewllers</title> 
 		<link rel="stylesheet" href="style.css" type="text/css" />
-				
-	<!-- 	// <script type="text/javascript" src="support/mootools-core-1-1.3.js"></script>
-		// <script type="text/javascript" src="support/Lighter.js"></script> -->
-		<script type="text/javascript"> 
-		
-		</script> 
 	</head> 
- 
 	<body> 
-	
 	<div id="wrap"> 
 	<h1>Trajectory Simulator</h1> 
-		<form method="post" action="#" >
+		<form method="post" action="#">
             <label>Angle:</label>
-              <input type="number" placeholder="Angle..." id="angle" name="angle" required>
+                <input type="number" placeholder="Angle..." id="angle" name="angle" required>
             <label>Velocity:</label>
-              <input type="number" placeholder="Velocity..." id="vel" name="velocity" required>
+                <input type="number" placeholder="Velocity..." id="vel" name="velocity" required>
                 <button type="submit" name='StartButton' class="btn btn-primary">Start</button>
-      </form>
+</form>
 
 <?php
 if(isset($_POST['StartButton'])) {
@@ -80,11 +70,8 @@ if(isset($_POST['StartButton'])) {
 		</script> 
 	<?php
 }?>
-		
-		
-	</div> 
-	
-	
-	</body> 
+        </div>
+        
+    </body>
  
 </html>
